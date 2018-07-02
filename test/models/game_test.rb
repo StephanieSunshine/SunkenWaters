@@ -32,4 +32,7 @@ class GameTest < ActiveSupport::TestCase
     assert false unless @g.status.eql?(:running.to_s)
   end
 
+  test 'make a move' do
+  end
+
 end

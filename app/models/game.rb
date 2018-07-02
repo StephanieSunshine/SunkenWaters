@@ -13,12 +13,17 @@ class Game < ApplicationRecord
 
   def leave_table(user, seat_number)
     test_user = self.players.find_by seat_number: seat_number
-    test_user.nil? ? (test_user.update(user: nil); self.reload; true) : false
+    test_user.user == user ? (test_user.update(user: nil); self.reload; true) : false
+  end
+
+  def get_player_board(user)
+    test_user = self.players.find_by user: user
+    return test_user.submitted_board
   end
 
   def update_player_board(user, board)
     test_user = self.players.find_by user: user
-    (test_user.user.eql?(user) && self.status.eql?(:created.to_s)) ? (test_user.submitted_board=board; test_user.save; true) : false
+    (test_user.user.eql?(user) && self.status.eql?(:created.to_s)) ? (test_user.update(submitted_board: Marshal.dump(board).unpack('h*')); self.reload; true) : false
   end
 
   def player_ready(user)
