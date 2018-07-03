@@ -23,7 +23,8 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
+gem 'redis', '~> 4.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -39,17 +40,17 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # colorized logs
 gem 'shog'
 
-# Javascript precomple
-gem 'webpacker'
-
 # React
 gem 'react-rails'
 
 # Simple Authentication
 gem 'devise'
 
-# jQuery
-gem 'jquery-rails'
+# Bootstrap
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'popper_js', '~> 1.12', '>= 1.12.9'
+gem 'bootstrap', '~> 4.0'
+gem 'bootswatch', github: "thomaspark/bootswatch"
 
 
 group :development, :test do
