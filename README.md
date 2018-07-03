@@ -1,24 +1,40 @@
-# README
+Hexed
+================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hexed is a game that is loosely based on the concepts of Battleship.  Major differences include 4 way multiplayer, hexagon game grid, dice to determine how many attacks per round someone gets, and possibly a card modifier system.
 
-Things you may want to cover:
+Ruby on Rails
+-------------
 
-* Ruby version
+This application requires at least:
 
-* System dependencies
+- Ruby 2.3.1
+- Rails 5.2
 
-* Configuration
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-* Database creation
+License
+-------
 
-* Database initialization
+MIT License
 
-* How to run the test suite
+Copyright (c) 2016 Stephanie Sunshine <ponyosunshine@gmail.com>
 
-* Services (job queues, cache servers, search engines, etc.)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Deployment instructions
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* ...
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
