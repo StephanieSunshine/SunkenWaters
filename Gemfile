@@ -39,7 +39,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # colorized logs
 gem 'shog'
 
+# Javascript precomple
+gem 'webpacker'
 
+# React
+gem 'react-rails'
+
+# Simple Authentication
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
